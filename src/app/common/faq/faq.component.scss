@@ -1,0 +1,27 @@
+mat-expansion-panel {
+  //   background: rgba(0, 0, 0, 0);
+  //   margin-bottom: 19px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0;
+  background: unset;
+}
+
+mat-accordion {
+  gap: 16px;
+  display: grid;
+  background: black;
+}
+
+.span-with-line {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  text-align: center;
+  p {
+    margin: 0;
+  }
+}
+.icon-Line {
+  font-size: 30px;
+  color: #f15e31;
+}

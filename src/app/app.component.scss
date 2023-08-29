@@ -1,0 +1,57 @@
+.header {
+  height: 93px;
+  width: 100%;
+  //   background: #eee;
+}
+.mainNavbar {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  min-height: 900px;
+}
+.list .item a {
+  color: #9f9999;
+  font-size: 50px;
+  line-height: 1.05;
+  display: block;
+  text-transform: uppercase;
+  transition: all 0.35s ease;
+  transition: transform 0.5s;
+  position: relative;
+  display: inline-block;
+  background: #000;
+}
+.list .item a:hover{
+  color:white;
+  transition: color 0.3s,font-weight 0.3s;
+  transform: translateX(-20px);
+}
+
+.secondToolbar {
+  position: fixed;
+  top: 0;
+  height: 0;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.25s ease-out, height 0.15s ease;
+  cursor: default;
+  user-select: none;
+}
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.sticky {
+  height: 800px;
+  opacity: 100;
+  transition: opacity 0.25s ease-out, height 0.15s ease;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.first{
+
+}

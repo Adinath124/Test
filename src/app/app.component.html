@@ -1,0 +1,65 @@
+<!-- <div class="header">
+  <h1 class>creativewebo</h1>
+</div>
+
+<mat-toolbar class="secondToolbar"
+  [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
+  <span class="title">creativewebo</span>
+</mat-toolbar> -->
+
+<mat-toolbar color="primary" class="mainNavbar">
+  <span>creativewebo</span>
+
+  <button mat-icon-button  *ngIf="!menuOpen" (click)="openMenu(true)">
+    <mat-icon>Menu</mat-icon>
+  </button>
+  <button mat-icon-button *ngIf="menuOpen" (click)="openMenu(false)">
+    <mat-icon>X</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div class="menu" *ngIf="menuOpen">
+  
+  <ul class="list">
+    <li class="item active" data-target="index">
+      <a href="https://creativewebo.com" class="animsition-link">Home</a>
+    </li>
+    <li class="item" data-target="case-study">
+      <a href="https://creativewebo.com/about-us" class="animsition-link">About
+        Us</a>
+    </li>
+    <li class="item" data-target="case-study">
+      <a href="https://creativewebo.com/services" class="animsition-link">Services</a>
+    </li>
+    <li class="item" data-target="core-team">
+      <a href="https://creativewebo.com/case-studies" class="animsition-link">Case
+        Studies</a>
+    </li>
+    <li class="item" data-target="live-team">
+      <a href="https://creativewebo.com/career" class="animsition-link">Career</a>
+    </li>
+    <li class="item" data-target="live-team">
+      <a href="https://creativewebo.com/blog/" class="animsition-link">Blog</a>
+    </li>
+    <li class="item" data-target="live-team">
+      <a href="https://creativewebo.com/locations" class="animsition-link">Locations</a>
+    </li>
+    <li class="item" data-target="contact">
+      <a href="https://creativewebo.com/contact-us" class="animsition-link">contact
+        us</a>
+    </li>
+  </ul>
+  <div>
+
+  </div>
+</div>
+<!-- <div class="header">
+   <div class="first">
+    <p>We Blend</p><br>
+    <h3>Experience and Expertise</h3><br>
+   </div>
+  
+  <h2>to facilitate robust Digital Solutions</h2>
+</div> -->
+<app-book-appoinment></app-book-appoinment>
+<app-faq></app-faq>

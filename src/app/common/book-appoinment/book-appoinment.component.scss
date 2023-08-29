@@ -1,0 +1,51 @@
+.card{
+    // display: flex;
+    justify-content:center;
+    align-items: center;
+    width:300px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color:black
+}
+
+.card h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+// .newuser{
+//     margin-left: 500px;
+// }
+// .example-form{
+//     max-width: 200px;
+//     margin-left: 300px;
+// }
+
+// .example-full-width{
+//     //max-width: px;
+//     margin: auto;
+//     width: 350px;
+// }
+
+// h2{
+//     text-align: center;
+//     margin-left: 250px;
+// }
+
+// mat-card{
+//     max-width: 800px;
+//     margin-left: 300px;
+//     margin-top: 50px;
+//     background-color: black;
+// }
+
+// div{
+//     margin-top: 50px;
+//     display: flex;
+//     column-gap: 20px;
+//     width:500px
+// }

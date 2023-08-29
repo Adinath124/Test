@@ -1,0 +1,54 @@
+<div class="card">
+    <h2>Book Appoinment</h2>
+    
+    <form #appoinmentForm="ngForm" (ngSubmit)="onSubmit(appoinmentForm)">
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" class="form-control" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" ngModel required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea  id="message" name="message" class="form-control" ngModel required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="captcha">CAPTCHA</label>
+            <input type="text" id="captcha" name="captcha" class="form-control" ngModel required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+<!-- <mat-card>
+    <mat-card-header>
+        <h2>User Login</h2>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form" [formGroup]="submitform" (ngSubmit)="onSubmit()">
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Full Name</mat-label>
+                <input matInput formControlName="fullname">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput formControlName="email">
+            </mat-form-field>
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Message</mat-label>
+                <input matInput formControlName="id">
+            </mat-form-field>
+            <div>
+                <button mat-raised-button color="primary">submit</button>
+               
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card> -->
+
