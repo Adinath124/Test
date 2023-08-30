@@ -1,0 +1,59 @@
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+   
+    margin: 10px;
+    
+
+    //padding-left: 5px;
+}
+.label{
+    font-size: 23px;
+    font-color: black;
+}
+
+.cardd{
+    display:flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    max-height: 250px;
+    background-color: #000;
+}
+.card1:hover{
+    transition: opacity 0.5s;
+    //transition-delay: 1s;
+    //filter: brightness(50%);
+    
+    background-image: url(../../../assets/images/software.jpg);
+}
+.card2:hover{
+    transition: opacity 0.5s;
+    
+// filter: brightness(50%);
+    background-image: url(../../../assets/images/iphone-410324_640.jpg);
+}
+.card3:hover{
+    transition: opacity 0.5s;
+    //transition-delay: 1s;
+    //filter: brightness(50%);
+    background-image: url(../../../assets/images/software.jpg);
+}
+.card4:hover{
+    transition: opacity 0.5s;
+    //transition-delay: 1s;
+    //filter: brightness(50%);
+    background-image: url(../../../assets/images/e-commerce.jpg);
+}
+.card5:hover{
+    transition: opacity 0.5s;
+    //transition-delay: 1s;
+    //filter: brightness(50%);
+    background-image: url(../../../assets/images/manage.jpg);
+}
+.card6:hover{
+    transition: opacity 0.5s;
+    //transition-delay: 1s;
+    //filter: brightness(50%);
+    background-image: url(../../../assets/images/software.jpg);
+}
+
