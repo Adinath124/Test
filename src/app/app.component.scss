@@ -21,6 +21,11 @@
   position: relative;
   display: inline-block;
   background: #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+.list{
+  list-style-type: none;
 }
 .list .item a:hover{
   color:white;

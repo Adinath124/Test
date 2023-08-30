@@ -25,3 +25,59 @@ mat-accordion {
   font-size: 30px;
   color: #f15e31;
 }
+// .container{
+//   width: 100%;
+//   padding-right: 15px;
+//   padding-left: 15px;
+//   margin-right: auto;
+//   margin-left: auto;
+// }
+
+.label{
+  font-size: 23px;
+  font-color: black;
+}
+.list .item a {
+  color: white;
+  font-size: 12px;
+  display: block;
+  transition: all 0.35s ease;
+  transition: transform 0.5s;
+  position: relative;
+  display: inline-block;
+  background: #000;
+  text-decoration: none;
+  list-style-type: none;
+}
+.list{
+  list-style-type: none;
+}
+.list .item a:hover{
+  color:rgb(205, 85, 85);
+  transition: color 0.3s,font-weight 0.3s;
+   
+}
+// div{
+//   margin: 10px;
+// }
+.second{
+width:25%;
+display:inline-block;
+
+}
+.third .fourth{
+  width:12%;
+display:inline-block;
+
+}
+@media screen and (max-width: 500px){
+  .second,
+  .third,
+  .fourth{
+    width:50%
+  }
+}
+.footer{
+  display: flex;
+  flex-grow:unset
+}
