@@ -1,0 +1,23 @@
+.footer{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+  .list{
+    list-style-type: none;
+  }
+  .list .item a:hover{
+    color:white;
+    transition: color 0.5s,font-weight 0.3s;
+    transform: translateX(-20px);
+  }
+  

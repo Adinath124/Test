@@ -16,9 +16,10 @@ import { BookAppoinmentComponent } from './common/book-appoinment/book-appoinmen
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { ServicesComponent } from './common/services/services.component';
 import { HeaderComponent } from './common/header/header.component';
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, FaqComponent, BookAppoinmentComponent, ServicesComponent, HeaderComponent],
+  declarations: [AppComponent, FaqComponent, BookAppoinmentComponent, ServicesComponent, HeaderComponent, FooterComponent],
   imports: [
     BrowserModule,
     FormsModule,

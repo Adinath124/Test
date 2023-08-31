@@ -7,16 +7,20 @@ import { FormBuilder,Validators,FormGroup,FormControl } from '@angular/forms';
   styleUrls: ['./book-appoinment.component.scss']
 })
 export class BookAppoinmentComponent {
-  // constructor(private builder:FormBuilder){}
-  // submitform=this.builder.group({
-  //   fullName:this.builder.control('',Validators.required),
-  //   email:this.builder.control('',Validators.required),
-  //   message:this.builder.control('',Validators.required),
-  //   phoneNumber:this.builder.control('',Validators.required),
-  //   captcha:this.builder.control(''),
+  // myForm:FormGroup;
+  constructor(private builder:FormBuilder){
+  }
+  appoinmentForm=this.builder.group({
+    fullName:this.builder.control('',Validators.required),
+    email:this.builder.control('',Validators.required),
+    message:this.builder.control('',Validators.required),
+    phoneNumber:this.builder.control('',Validators.required),
+    captcha:this.builder.control(''),
     
-  // });
-  onSubmit(form: NgForm){
+  });
+ 
+
+  onSubmit(form:NgForm){
     
     if(form.valid){
       console.log(form.value);
